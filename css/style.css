@@ -20,6 +20,12 @@ ul {
 	list-style: none;
 }
 
+.container {
+	padding: 0 10px;
+	max-width: 1220px;
+	margin: 0 auto;
+}
+
 .header {
 	background-image: url(/images/header-bg.jpg);
 	height: 100vh;
@@ -82,4 +88,8 @@ ul {
 
 .social__link {
 	padding: 0 10px;
+}
+
+.service {
+	margin-bottom: 150px;
 }
