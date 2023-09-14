@@ -226,3 +226,21 @@ ul {
   font-weight: 700;
   line-height: 25px;
 }
+
+.blockquote {
+  padding: 128px 10px 144px;
+  background-image: url('../images/blockquote.jpg');
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 150px;
+}
+
+.blockquote__text {
+  max-width: 670px;
+  margin: 0 auto;
+  font-size: 42px;
+  line-height: 57px;
+  color: #fff;
+}
