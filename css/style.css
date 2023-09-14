@@ -166,6 +166,12 @@ ul {
   margin-bottom: 120px;
 }
 
+.info-tabs__item {
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 40px;
+}
+
 .info-tabs__item--active {
   border-bottom: 1px solid #303030;
 }
