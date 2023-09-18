@@ -398,3 +398,38 @@ ul {
 .footer .social {
   margin-right: -10px;
 }
+
+@media (max-width: 768px) {
+  .header__title {
+    font-weight: 700;
+    line-height: 56px;
+    font-size: 48px;
+  }
+
+  .header__title span {
+    line-height: 40px;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 540px) {
+  .header__title {
+    line-height: 38px;
+    font-size: 32px;
+  }
+  .header__title span {
+    line-height: 28px;
+    font-size: 22px;
+  }
+
+  .header__subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .button__text {
+    margin-left: -76px;
+  }
+}
